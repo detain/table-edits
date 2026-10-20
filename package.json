@@ -8,7 +8,9 @@
     "url": "git+https://github.com/detain/table-edits.git"
   },
   "keywords": [
-    "jquery", "table", "tableedits"
+    "jquery",
+    "table",
+    "tableedits"
   ],
   "authors": [
     "Joe Huss <detain@interserver.net>",
@@ -29,5 +31,9 @@
   },
   "scripts": {
     "test": "./node_modules/.bin/grunt jasmine"
+  },
+  "overrides": {
+    "form-data": "^2.5.6",
+    "qs": "^6.16.0"
   }
 }
